@@ -1,7 +1,7 @@
-name: "distill_test"
-title: "Testsite"
+name: "distill"
+title: "My Website"
 description: |
-  Testsite
+  My Website
 output_dir: "docs"
 navbar:
   right:
