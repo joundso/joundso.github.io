@@ -1,7 +1,7 @@
 ---
-title: "My Website"
+title: "This is a test site"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Welcome to this website. I hope you enjoy it!
 site: distill::distill_website
 ---
 
@@ -16,3 +16,28 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+:heavy_check_mark: Finally this seems to work :+1:.
+
+---
+
+Get the sourcode of this page here: <https://github.com/joundso/joundso.github.io>
+
+---
+
+```{r, layout="l-screen-inset shaded"}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+```
+
+```{r, layout="l-body-outset"}
+library(rmarkdown)
+paged_table(mtcars)
+```
+
+```{r diamonds, fig.cap="Diamond Prices"}
+library(ggplot2)
+ggplot(diamonds, aes(carat, price)) + geom_smooth() +
+  facet_grid(~ cut)
+```
