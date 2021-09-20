@@ -41,3 +41,12 @@ library(ggplot2)
 ggplot(diamonds, aes(carat, price)) + geom_smooth() +
   facet_grid(~ cut)
 ```
+
+```{r plots, fig.cap="Test plot"}
+p <-   
+ ggplot(mpg, aes(displ, hwy)) +
+  geom_point() +
+  geom_smooth()
+plotly::ggplotly(p)
+```
+
