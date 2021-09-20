@@ -1,0 +1,17 @@
+---
+title: "Preprocessing"
+description: |
+  The basic previous data cleaning is done here
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+test_preprocessing <- "preprocessing"
+```
+
+```{r}
+print(paste(test_preprocessing))
+```

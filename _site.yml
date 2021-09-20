@@ -9,4 +9,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Preprocessing"
+      href: preprocessing.html
+    - text: "Script"
+      href: script.html
 output: distill::distill_article

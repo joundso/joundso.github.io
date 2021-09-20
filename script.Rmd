@@ -1,0 +1,17 @@
+---
+title: "Script"
+description: |
+  The calculation is happening here
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+test_script <- "script"
+```
+
+```{r}
+print(paste(test_script, test_preprocessing))
+```

@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-:heavy_check_mark: Finally this seems to work :+1:.
+Finally this seems to work.
 
 ---
 
